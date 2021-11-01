@@ -7,6 +7,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 
+
 signIn = {'username': os.environ["USERNAME"], #学号
           'password': os.environ["PASSWORD"]} #登陆密码
 
